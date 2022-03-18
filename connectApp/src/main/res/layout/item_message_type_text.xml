@@ -7,7 +7,7 @@
 
         <import type="android.util.LayoutDirection" />
         <import type="android.view.View"/>
-        <import type="com.vdotok.connect.utils.DateTimeUtilsKt" />
+        <import type="com.vdotok.connectApp.utils.DateTimeUtilsKt" />
         <import type="android.view.Gravity"/>
         <import type="androidx.constraintlayout.widget.Barrier" />
 

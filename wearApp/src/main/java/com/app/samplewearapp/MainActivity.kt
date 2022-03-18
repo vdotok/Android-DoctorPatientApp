@@ -11,9 +11,9 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.wear.ambient.AmbientModeSupport
 import androidx.wear.widget.WearableRecyclerView
 import com.app.samplewearapp.util.CustomViewType
-import com.vdotok.connectSdk.manager.WearSdkManager
+import com.vdotok.connect.manager.WearSdkManager
 import com.app.samplewearapp.util.CustomRecyclerAdapter
-import com.vdotok.connectSdk.manager.WearSdkManagerCallback
+import com.vdotok.connect.manager.WearSdkManagerCallback
 import java.util.ArrayList
 
 class MainActivity :  FragmentActivity(), AmbientModeSupport.AmbientCallbackProvider, WearSdkManagerCallback {

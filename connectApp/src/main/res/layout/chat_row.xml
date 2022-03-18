@@ -7,7 +7,7 @@
 <data>
     <variable
         name="groupModel"
-        type="com.vdotok.connect.models.GroupModel"/>
+        type="com.vdotok.connectApp.models.GroupModel"/>
     <variable
         name="status"
         type="Boolean" />

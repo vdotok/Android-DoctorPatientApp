@@ -6,7 +6,7 @@
     app:startDestination="@id/inboxFragment">
     <fragment
         android:id="@+id/allUsersListFragment"
-        android:name="com.vdotok.connect.ui.dashBoard.ui.AllUserListFragment"
+        android:name="com.vdotok.connectApp.ui.dashBoard.ui.AllUserListFragment"
         android:label="allUsersListFragment"
         tools:layout="@layout/layout_all_user_list">
 
@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/chatFragment"
-        android:name="com.vdotok.connect.ui.dashBoard.ui.ChatFragment"
+        android:name="com.vdotok.connectApp.ui.dashBoard.ui.ChatFragment"
         android:label="chatFragment"
         tools:layout="@layout/layout_chat_fragment">
 
@@ -40,7 +40,7 @@
 
     <fragment
         android:id="@+id/inboxFragment"
-        android:name="com.vdotok.connect.ui.dashBoard.ui.AllGroupsFragment"
+        android:name="com.vdotok.connectApp.ui.dashBoard.ui.AllGroupsFragment"
         android:label="InboxFragment"
         tools:layout="@layout/layout_fragment_inbox">
 
@@ -71,7 +71,7 @@
 
     <fragment
         android:id="@+id/select_userList"
-        android:name="com.vdotok.connect.ui.dashBoard.ui.SelectContactFragment"
+        android:name="com.vdotok.connectApp.ui.dashBoard.ui.SelectContactFragment"
         android:label="SelectContactFragment"
         tools:layout="@layout/layout_select_contact">
 
