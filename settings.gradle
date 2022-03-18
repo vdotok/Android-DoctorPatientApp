@@ -1,0 +1,2 @@
+include ':DoctorApp'
+rootProject.name = "ConnectAppProject"

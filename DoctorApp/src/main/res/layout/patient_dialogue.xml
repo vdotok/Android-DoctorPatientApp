@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="1dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="23dp"
+                android:gravity="center"
+                android:minWidth="250dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_group_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="@string/monitor_health"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textStyle="bold"
+                    android:textColor="@color/grayish_3"
+                    android:layout_marginStart="24dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/img_close"
+                    app:layout_constraintEnd_toStartOf="@+id/img_close"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/img_close" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_close"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginEnd="24dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_wrist"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:padding="10dp"
+                    android:layout_marginTop="28dp"
+                    android:src="@drawable/wristwatch"
+                    android:background="@drawable/ic_grean_bg_circle"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/img_heart"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_group_name" />
+
+                <TextView
+                    android:id="@+id/text_wrist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/connectivity"
+                    app:layout_constraintTop_toBottomOf="@id/img_wrist"
+                    app:layout_constraintStart_toStartOf="@id/img_wrist"
+                    app:layout_constraintEnd_toEndOf="@+id/img_wrist"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_heart"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:padding="10dp"
+                    android:background="@drawable/ic_grean_bg_circle"
+                    android:src="@drawable/heart_rate"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/img_wrist"
+                    app:layout_constraintStart_toEndOf="@+id/img_wrist" />
+
+                <TextView
+                    android:id="@+id/text_heart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/heartbeat"
+                    app:layout_constraintTop_toBottomOf="@id/img_heart"
+                    app:layout_constraintStart_toStartOf="@id/img_heart"
+                    app:layout_constraintEnd_toEndOf="@+id/img_heart"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_oxygen"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:padding="10dp"
+                    android:layout_marginTop="28dp"
+                    android:src="@drawable/oxygen"
+                    android:background="@drawable/ic_grean_bg_circle"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/img_heart"
+                    app:layout_constraintTop_toBottomOf="@+id/text_wrist" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oxygen_level"
+                    app:layout_constraintTop_toBottomOf="@id/img_oxygen"
+                    app:layout_constraintStart_toStartOf="@id/img_oxygen"
+                    app:layout_constraintEnd_toEndOf="@+id/img_oxygen"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/img_walk"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:padding="10dp"
+                    android:background="@drawable/ic_grean_bg_circle"
+                    android:src="@drawable/walk"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/img_oxygen"
+                    app:layout_constraintStart_toEndOf="@+id/img_oxygen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/step_count"
+                    app:layout_constraintTop_toBottomOf="@id/img_walk"
+                    app:layout_constraintStart_toStartOf="@id/img_walk"
+                    app:layout_constraintEnd_toEndOf="@+id/img_walk"/>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</layout>
