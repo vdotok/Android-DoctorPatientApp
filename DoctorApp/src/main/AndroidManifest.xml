@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.vdotok.connect">
+    package="com.vdotok.connectApp">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -28,13 +28,13 @@
         tools:targetApi="m">
 
 
-        <activity android:name=".ui.account.ui.AccountActivity"
+        <activity android:name="com.vdotok.connectApp.ui.account.ui.AccountActivity"
             android:theme="@style/Theme.AccountScreen"
             android:screenOrientation="portrait"
             android:launchMode="singleTask"/>
-        <activity android:name=".ui.dashBoard.ui.DashboardActivity"
+        <activity android:name="com.vdotok.connectApp.ui.dashBoard.ui.DashboardActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".ui.splash.ui.SplashActivity"
+        <activity android:name="com.vdotok.connectApp.ui.splash.ui.SplashActivity"
             android:theme="@style/Theme.AccountScreen"
             android:screenOrientation="portrait">
             <intent-filter>
