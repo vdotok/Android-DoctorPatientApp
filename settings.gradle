@@ -1,2 +1,3 @@
-include ':DoctorApp'
+include ':wearApp'
+include ':connectApp'
 rootProject.name = "ConnectAppProject"
