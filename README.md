@@ -22,9 +22,11 @@ IDE Installation & Build Guide
 * Make sure that you wear is connected to mobile phone.  
  
 <b>Code setup for Patient App:</b> 
-* Shift to <b>"patientApp"</b> branch from Github interface and then from the <b>"Code"</b> option click on <b>"Download ZIP"</b> to download doctor application only code.
+* Shift to <b>"patientApp"</b> branch from Github interface.
 
 <img width="498" alt="image" src="https://user-images.githubusercontent.com/88875529/159266929-f7afdcfb-f90c-42e5-9c79-1d7af5867543.png">
+
+* From the <b>"Code"</b> option click on <b>"Download ZIP"</b> to download patient application only code.
 
 </br><img width="483" alt="image" src="https://user-images.githubusercontent.com/88875529/159257361-63681d4e-50b7-4d09-b2ce-3902b42aa02b.png">
 
