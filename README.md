@@ -27,7 +27,8 @@ IDE Installation & Build Guide
 
 </br><img width="483" alt="image" src="https://user-images.githubusercontent.com/88875529/159257361-63681d4e-50b7-4d09-b2ce-3902b42aa02b.png">
 
-* Unzip the downloaded file and import the downloaded Project in Android Studio by <b>File -> New -> Import Project</b> and select the downloaded project folder.
+* Unzip the downloaded file and import the downloaded Project in Android Studio by <b>File -> New -> Import Project</b> and select the downloaded project folder if android studio is already running.
+* Use <b>"Open Project"</b> if you'r on the welcome page of android studio.
 * Let Android Studio install the components and finish importing the project files.
  
 Bravo! You’ve successfully configured the project in Android Studio. 
@@ -39,7 +40,7 @@ Bravo! You’ve successfully configured the project in Android Studio.
 * In <b> Android Studio File Explorer</b>, select <b>Project</b> 
 <img width="498" alt="123636395-41e08980-d836-11eb-8643-429d6e5510d5" src="https://user-images.githubusercontent.com/86282129/123811571-cb628b00-d90c-11eb-9584-b5a8f12957dc.png"> 
  
-* Go to <b>ConnectAppProject -> doctorApp -> libs</b> 
+* Go to <b>ConnectAppProject -> DoctorApp -> libs</b> 
 * Add the downloaded <b>connect.aar</b> file in the libs folder 
 <img width="243" alt="Screenshot 2021-12-02 at 4 51 28 PM" src="https://user-images.githubusercontent.com/91589156/159227453-de05505e-37c7-4f16-aed5-6b2da5767630.jpg"> 
 <li> After this, click on gradle sync icon from the toolbar 
@@ -47,7 +48,7 @@ Bravo! You’ve successfully configured the project in Android Studio.
 
 <b>Project Signup:</b> 
 * Register your account on [VdoTok](https://www.vdotok.com/). After creating an account, [login](https://console.vdotok.com/) to get the <b>Project ID</b> and <b>API Service URL</b>
-* From file explorer, double-click on <b>ConnectAppProject -> doctorApp  -> src -> main -> java -> com -> vdotok -> doctorApp -> utils -> ApplicationConstants</b> replace <b>SDK_PROJECT_ID</b> with your own <b>Project Id</b> and <b>BASE_URL</b> with your own <b>API Service URL</b> 
+* From file explorer, double-click on <b>ConnectAppProject -> DoctorApp  -> src -> main -> java -> com -> vdotok -> connectApp -> utils -> ApplicationConstants</b> replace <b>SDK_PROJECT_ID</b> with your own <b>Project Id</b> and <b>BASE_URL</b> with your own <b>API Service URL</b> 
  
 <b>Device Setting:</b> 
 * To connect a device, enable <b>“developer mode”</b> and <b>“USB debugging”</b> by following the device-specific steps provided [here.](https://developer.android.com/studio/debug/dev-options)
