@@ -46,7 +46,9 @@ Bravo! You’ve successfully configured the project in Android Studio.
  
 * For <b>connect.aar</b> go to <b>ConnectAppProject -> connectApp -> libs</b>,add the downloaded <b>connect.aar</b> file in the libs folder 
 <img width="281" alt="Screenshot 2022-03-21 at 1 14 34 PM" src="https://user-images.githubusercontent.com/91589156/159226560-017f8dd6-ee5e-4ac0-a500-813c5d112693.png">
+
 * For <b>wearSDK.aar</b> go to <b>ConnectAppProject -> wearApp -> libs</b>,add the downloaded <b>wearSDK.aar</b> file in the libs folder 
+
 <img width="281" alt="Screenshot 2022-03-21 at 1 14 34 PM" src="https://user-images.githubusercontent.com/91589156/159226814-bdacc4f3-4079-4a99-b2f2-a7b280d8979f.jpg">
 <li> After this, click on gradle sync icon from the toolbar 
 <img width="21" alt="Screenshot 2021-12-02 at 4 43 51 PM" src="https://user-images.githubusercontent.com/88875529/144415902-78883f01-f5be-4f99-a6e3-d9ea44a71936.png"> to sync project.</li></br> 
