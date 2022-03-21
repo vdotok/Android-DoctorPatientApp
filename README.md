@@ -22,16 +22,16 @@ IDE Installation & Build Guide
 * Make sure that you wear is connected to mobile phone.  
  
 <b>Code setup for Patient App:</b> 
-* Open <b>Android Studio</b> 
-* Click on <b>Get from Version Control</b> or in case the welcome page doesn't open, go to <b>File Menu->New</b> and select <b>Project From Version Control</b> 
-* Select <b>Repository URL</b> from left menu 
-* Select <b>Git</b> from <b>Version control</b> dropdown menu 
-* Paste this URL https://github.com/vdotok/Android-DoctorPatientApp.git in URL section 
-* Click on <b>Clone</b> button and wait for build.gradle file. You can see the progress at the bottom of <b>Android Studio</b> 
-* go to file menu <b>Tools -> SDK Manager</b>
-* Click all checkboxes from <b>API Level 21 and onward</b>
-* Click <b>Apply</b> and download relevant packages
-* Let the <b>Android Studio</b> install the components
+* Shift to <b>"patientApp"</b> branch from Github interface and then from the <b>"Code"</b> option click on <b>"Download ZIP"</b> to download doctor application only code.
+
+<img width="498" alt="image" src="https://user-images.githubusercontent.com/88875529/159266929-f7afdcfb-f90c-42e5-9c79-1d7af5867543.png">
+
+</br><img width="483" alt="image" src="https://user-images.githubusercontent.com/88875529/159257361-63681d4e-50b7-4d09-b2ce-3902b42aa02b.png">
+
+* Unzip the downloaded file to import it in android studio.
+* Use <b>"Open Project"</b> if you'r on the welcome page of android studio.
+* If you'r not on welcome page click on <b>File -> New -> Import Project</b> and select the downloaded project folder.
+* Let Android Studio install the components and finish importing the project files.
  
 Bravo! You’ve successfully configured the project in Android Studio. 
  
