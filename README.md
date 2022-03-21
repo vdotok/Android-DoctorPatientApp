@@ -1,5 +1,10 @@
 VdoTok-Android-Doctor-Application 
 ========================================= 
+
+Note
+==========
+* Move to <b>"Code setup for Doctor App"</b> if <b>GIT</b> and <b>Android Studio</b> are already installed.
+
 Git Installation 
 ============================== 
 * Please follow this [link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for GIT installation 
