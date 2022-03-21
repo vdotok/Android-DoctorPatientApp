@@ -1,33 +1,4 @@
-# README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
-=======
 VdoTok-Android-Doctor-Patient-Application 
 ========================================= 
 Git Installation 
@@ -53,82 +24,8 @@ IDE Installation & Build Guide
 * Follow the instructions to connect your wear with mobile phone and complete the connectivity setup. 
 * Make sure that you wear is connected to mobile phone.  
  
-<b>Code setup for Patient App:</b> 
-* Open <b>Android Studio</b> 
-* Click on <b>Get from Version Control</b> or in case the welcome page doesn't open, go to <b>File Menu->New</b> and select <b>Project From Version Control</b> 
-* Select <b>Repository URL</b> from left menu 
-* Select <b>Git</b> from <b>Version control</b> dropdown menu 
-* Paste this URL https://github.com/vdotok/DoctorPatientApp.git in URL section 
-* Click on <b>Clone</b> button and wait for build.gradle file. You can see the progress at the bottom of <b>Android Studio</b> 
-* Let the <b>Android Studio</b> install the components 
- 
-Bravo! You’ve successfully configured the project in Android Studio. 
- 
-<b>Download Connect Lib:</b> 
-* Go to: https://sdk.vdotok.com/Android-SDKs/ and download “<b>connect.aar</b>” file 
- 
-<b>Configure Lib:</b> 
-* In <b> Android Studio File Explorer</b>, select <b>Project</b> 
-<img width="498" alt="123636395-41e08980-d836-11eb-8643-429d6e5510d5" src="https://user-images.githubusercontent.com/86282129/123811571-cb628b00-d90c-11eb-9584-b5a8f12957dc.png"> 
- 
-* Go to <b>DoctorPatientApp -> connectApp -> libs</b> 
-* Add the downloaded <b>connect.aar</b> file in the libs folder 
-<img width="243" alt="Screenshot 2021-12-02 at 4 51 28 PM" src="https://user-images.githubusercontent.com/88875529/144416883-ceac6a20-99e6-4085-ae79-3d2ca746fb7b.png"> 
-<li> After this, click on gradle sync icon from the toolbar 
-<img width="21" alt="Screenshot 2021-12-02 at 4 43 51 PM" src="https://user-images.githubusercontent.com/88875529/144415902-78883f01-f5be-4f99-a6e3-d9ea44a71936.png"> to sync project.</li></br> 
-
-<b>Download Wear Connect Lib:</b> 
-* Go to: https://sdk.vdotok.com/Android-SDKs/ and download “<b>wearSDK.aar</b>” file 
- 
-<b>Configure Lib:</b> 
-* In <b> Android Studio File Explorer</b>, select <b>Project</b> 
-<img width="498" alt="123636395-41e08980-d836-11eb-8643-429d6e5510d5" src="https://user-images.githubusercontent.com/86282129/123811571-cb628b00-d90c-11eb-9584-b5a8f12957dc.png"> 
- 
-* Go to <b>DoctorPatientApp -> wearApp -> libs</b> 
-* Add the downloaded <b>connect.aar</b> file in the libs folder 
-<img width="243" alt="Screenshot 2021-12-02 at 4 51 28 PM" src="https://user-images.githubusercontent.com/88875529/144416883-ceac6a20-99e6-4085-ae79-3d2ca746fb7b.png"> 
-<li> After this, click on gradle sync icon from the toolbar 
-<img width="21" alt="Screenshot 2021-12-02 at 4 43 51 PM" src="https://user-images.githubusercontent.com/88875529/144415902-78883f01-f5be-4f99-a6e3-d9ea44a71936.png"> to sync project.</li></br> 
-
-
-
-<b>Code setup for Doctor App:</b> 
-* Open <b>Android Studio</b> 
-* Click on <b>Get from Version Control</b> or in case the welcome page doesn't open, go to <b>File Menu->New</b> and select <b>Project From Version Control</b> 
-* Select <b>Repository URL</b> from left menu 
-* Select <b>Git</b> from <b>Version control</b> dropdown menu 
-* Paste this URL https://github.com/vdotok/DoctorPatientApp.git in URL section 
-* Click on <b>Clone</b> button and wait for build.gradle file. You can see the progress at the bottom of <b>Android Studio</b> 
-* Let the <b>Android Studio</b> install the components 
-* checkout to <b>doctorApp</b> branch
- 
-Bravo! You’ve successfully configured the project in Android Studio. 
- 
-<b>Download Connect Lib:</b> 
-* Go to: https://sdk.vdotok.com/Android-SDKs/ and download “<b>connect.aar</b>” file 
- 
-<b>Configure Lib:</b> 
-* In <b> Android Studio File Explorer</b>, select <b>Project</b> 
-<img width="498" alt="123636395-41e08980-d836-11eb-8643-429d6e5510d5" src="https://user-images.githubusercontent.com/86282129/123811571-cb628b00-d90c-11eb-9584-b5a8f12957dc.png"> 
- 
-* Go to <b>DoctorPatientApp -> doctorApp -> libs</b> 
-* Add the downloaded <b>connect.aar</b> file in the libs folder 
-<img width="243" alt="Screenshot 2021-12-02 at 4 51 28 PM" src="https://user-images.githubusercontent.com/88875529/144416883-ceac6a20-99e6-4085-ae79-3d2ca746fb7b.png"> 
-<li> After this, click on gradle sync icon from the toolbar 
-<img width="21" alt="Screenshot 2021-12-02 at 4 43 51 PM" src="https://user-images.githubusercontent.com/88875529/144415902-78883f01-f5be-4f99-a6e3-d9ea44a71936.png"> to sync project.</li></br> 
-
+<b>Code setup:</b> 
+* For <b>Doctor App</b> Click [here.](https://github.com/vdotok/Android-DoctorPatientApp/tree/doctorApp)
+* For <b>Patient App</b> Click [here.](https://github.com/vdotok/Android-DoctorPatientApp/tree/patientApp)
 
  
-<b>Project Signup:</b> 
-* Register your account on [VdoTok](https://www.vdotok.com/). After creating an account, [login](https://console.vdotok.com/) to get the <b>Project ID</b> and <b>API Service URL</b>
-* From file explorer, double-click on <b>vdotok-chat -> app -> src -> main -> java -> com -> vdotok -> chat -> utils -> ApplicationConstants</b> replace <b>SDK_PROJECT_ID</b> with your own <b>Project Id</b> and <b>BASE_URL</b> with your own <b>API Service URL</b> 
- 
-<b>Device Setting:</b> 
-* To connect a device, enable <b>“developer mode”</b> and <b>“USB debugging”</b> by following the device-specific steps provided [here.](https://developer.android.com/studio/debug/dev-options) 
- 
-<b>Build Project:</b> 
-* Connect your phone with system in a <b>File-sharing Mode</b> 
-* You can find your phone name in running devices list, as described in the below image 
-* Select your device and click on <b>Play</b> button<img width="24" alt="Screenshot 2021-09-21 at 1 19 15 PM" src="https://user-images.githubusercontent.com/86282129/134136764-72c0f47e-6ecb-4c62-a562-804b68042fe5.png"> 
-* After running some automated commands and building gradle, your app will be installed on your connected device 
-  <img width="1012" alt="Screenshot 2021-06-29 at 6 59 36 PM" src="https://user-images.githubusercontent.com/86282129/123811062-5bec9b80-d90c-11eb-96e1-ee50dee125c5.png"> 
