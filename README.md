@@ -21,9 +21,11 @@ IDE Installation & Build Guide
 * Make sure that you wear is connected to mobile phone.  
  
 <b>Code setup for Doctor App:</b> 
-* Shift to <b>"doctorApp"</b> branch from Github interface and then from the <b>"Code"</b> option click on <b>"Download ZIP"</b> to download doctor application only code.
+* Shift to <b>"doctorApp"</b> branch from Github interface.
 
 <img width="516" alt="image" src="https://user-images.githubusercontent.com/88875529/159257285-3da9f6d5-3ad2-4de2-89a7-b345119a5b86.png">
+
+* From the <b>"Code"</b> option click on <b>"Download ZIP"</b> to download doctor application only code.
 
 </br><img width="483" alt="image" src="https://user-images.githubusercontent.com/88875529/159257361-63681d4e-50b7-4d09-b2ce-3902b42aa02b.png">
 
