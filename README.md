@@ -13,14 +13,10 @@ IDE Installation & Build Guide
 ============================== 
 * Android Studio 4.1.2 or later (Stable Version) 
 * [Click here](https://developer.android.com/studio?gclid=Cj0KCQjwhr2FBhDbARIsACjwLo2fEHdB3l3eqRlhIvySYNx1-3XjDmuX1eSCbaCI7zU8FKHFkGBcVyMaAtSjEALw_wcB&gclsrc=aw.ds#downloads) to download and install Android Studio 
-
-<b>Watch Connectivity setup:</b> 
-* Install WearOS application from playstore for android application. 
-* Download it from [here.](https://play.google.com/store/apps/details?id=com.google.android.wearable.app&hl=en&gl=US)
-* Follow the instructions to connect your wear with mobile phone and complete the connectivity setup. 
-* Make sure that you wear is connected to mobile phone.  
  
-<b>Code setup for Doctor App:</b> 
+ 
+
+</br><b>Code setup for Doctor App:</b> 
 * Shift to <b>"doctorApp"</b> branch from Github interface.
 
 <img width="516" alt="image" src="https://user-images.githubusercontent.com/88875529/159257285-3da9f6d5-3ad2-4de2-89a7-b345119a5b86.png">
