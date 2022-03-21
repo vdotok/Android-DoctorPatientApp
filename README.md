@@ -27,8 +27,9 @@ IDE Installation & Build Guide
 
 </br><img width="483" alt="image" src="https://user-images.githubusercontent.com/88875529/159257361-63681d4e-50b7-4d09-b2ce-3902b42aa02b.png">
 
-* Unzip the downloaded file and import the downloaded Project in Android Studio by <b>File -> New -> Import Project</b> and select the downloaded project folder if android studio is already running.
+* Unzip the downloaded file to import it in android studio.
 * Use <b>"Open Project"</b> if you'r on the welcome page of android studio.
+* If you'r not on welcome page click on <b>File -> New -> Import Project</b> and select the downloaded project folder.
 * Let Android Studio install the components and finish importing the project files.
  
 Bravo! You’ve successfully configured the project in Android Studio. 
