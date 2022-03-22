@@ -21,14 +21,14 @@ IDE Installation & Build Guide
 
 <img width="516" alt="image" src="https://user-images.githubusercontent.com/88875529/159257285-3da9f6d5-3ad2-4de2-89a7-b345119a5b86.png">
 
-* From the <b>"Code"</b> option click on <b>"Download ZIP"</b> to download doctor application only code.
+* From the <b>"Code"</b> option, click on <b>"Download ZIP"</b> to download doctor-application only code.
 
 </br><img width="483" alt="image" src="https://user-images.githubusercontent.com/88875529/159257361-63681d4e-50b7-4d09-b2ce-3902b42aa02b.png">
 
-* Unzip the downloaded file to import it in android studio.
-* Use <b>"Open Project"</b> if you'r on the Welcome page of android studio.
-* If you'r not on Welcome page click on <b>File -> New -> Import Project</b> and select the downloaded project folder.
-* Let Android Studio install the components and finish importing the project files.
+* Unzip the downloaded file to import it in <b>Android Studio</b>.
+* Use <b>"Open Project"</b> if you're on the Welcome page of <b>Android Studio</b>.
+* If you're not on Welcome page, click on <b>File -> New -> Import Project</b> and select the downloaded project folder.
+* Let <b>Android Studio</b> install the components and finish importing the project files.
  
 Bravo! You’ve successfully configured the project in Android Studio. 
 
@@ -40,10 +40,9 @@ Bravo! You’ve successfully configured the project in Android Studio.
 <img width="498" alt="123636395-41e08980-d836-11eb-8643-429d6e5510d5" src="https://user-images.githubusercontent.com/86282129/123811571-cb628b00-d90c-11eb-9584-b5a8f12957dc.png"> 
  
 * Go to <b>ConnectAppProject -> DoctorApp -> libs</b> 
-* Add the downloaded <b>connect.aar</b> file in the libs folder 
+* Add the downloaded <b>connect.aar</b> file in the <b>libs</b> folder 
 <img width="243" alt="Screenshot 2021-12-02 at 4 51 28 PM" src="https://user-images.githubusercontent.com/91589156/159227453-de05505e-37c7-4f16-aed5-6b2da5767630.jpg"> 
-<li> After this, click on gradle sync icon from the toolbar 
-<img width="21" alt="Screenshot 2021-12-02 at 4 43 51 PM" src="https://user-images.githubusercontent.com/88875529/144415902-78883f01-f5be-4f99-a6e3-d9ea44a71936.png"> to sync project.</li></br> 
+<li> After this, click on gradle sync icon <img width="21" alt="Screenshot 2021-12-02 at 4 43 51 PM" src="https://user-images.githubusercontent.com/88875529/144415902-78883f01-f5be-4f99-a6e3-d9ea44a71936.png"> from the toolbar to sync project.</li></br> 
 
 <b>Project Signup:</b> 
 * Register your account on [VdoTok](https://www.vdotok.com/). After creating an account, [login](https://console.vdotok.com/) to get the <b>Project ID</b> and <b>API Service URL</b>
@@ -56,7 +55,7 @@ Bravo! You’ve successfully configured the project in Android Studio.
  
 <b>Build Project:</b> 
 * Connect your phone with system in a <b>File-sharing Mode</b> 
-* You can find your phone name in running devices list, as described in the below image 
+* You can find your phone name in <b>running devices</b> list, as described in the below image 
 * Select your device and click on <b>Play</b> button<img width="24" alt="Screenshot 2021-09-21 at 1 19 15 PM" src="https://user-images.githubusercontent.com/86282129/134136764-72c0f47e-6ecb-4c62-a562-804b68042fe5.png"> 
 * After running some automated commands and building gradle, your app will be installed on your connected device 
   <img width="1012" alt="Screenshot 2021-06-29 at 6 59 36 PM" src="https://user-images.githubusercontent.com/86282129/123811062-5bec9b80-d90c-11eb-96e1-ee50dee125c5.png"> 
